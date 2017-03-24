@@ -4,8 +4,7 @@ ENV SERVER_ADDR     0.0.0.0
 ENV SERVER_PORT     58388
 ENV PASSWORD=
 ENV METHOD          aes-256-cfb
-ENV PROTOCOL        auth_aes128_md5
-ENV PROTOCOL_PARAM=  
+ENV PROTOCOL        auth_aes128_md5 
 ENV OBFS            tls1.2_ticket_auth_compatible
 ENV OBFS_PARAM      www.icpppy.com
 ENV TIMEOUT         300
@@ -31,4 +30,4 @@ RUN wget --no-check-certificate https://github.com/breakwa11/shadowsocks/archive
 WORKDIR ~/shadowsocks
 
 
-CMD python ~/shadowsocks/server.py -p $SERVER_PORT -k $PASSWORD -m $METHOD -O $PROTOCOL -G $PROTOCOL_PARAM -o $OBFS -g $OBFS_PARAM
+CMD python ~/shadowsocks/server.py -p $SERVER_PORT -k $PASSWORD -m $METHOD -O $PROTOCOL -o $OBFS -g $OBFS_PARAM
