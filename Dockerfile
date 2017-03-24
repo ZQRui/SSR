@@ -1,9 +1,9 @@
 FROM alpine
 
 ENV SERVER_ADDR 0.0.0.0
-ENV SERVER_PORT 51348
+ENV SERVER_PORT 58388
 ENV PASSWORD=
-ENV METHOD      aes-128-ctr
+ENV METHOD      aes-256-cfb
 ENV PROTOCOL    auth_aes128_md5
 ENV OBFS        tls1.2_ticket_auth_compatible
 ENV TIMEOUT     300
