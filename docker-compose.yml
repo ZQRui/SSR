@@ -12,4 +12,10 @@ shadowsocksr:
    image: burndown/ssr:v1
    ports:
     - "80:58388"
+   environment:
+    - METHOD=aes-256-cfb
+    - PASSWORD=Killgfw!
+    - PROTOCOL=auth_aes128_md5
+    - OBFS=tls1.2_ticket_auth_compatible
+    - OBFS_PARAM=www.icpppy.com
    restart: always
