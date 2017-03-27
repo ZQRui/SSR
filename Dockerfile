@@ -6,7 +6,7 @@ ENV PASSWORD=
 ENV METHOD          aes-256-cfb
 ENV PROTOCOL        auth_aes128_md5 
 ENV OBFS            tls1.2_ticket_auth
-ENV OBFS_PARAM      www.icpppy.com
+ENV OBFS_PARAM=
 ENV TIMEOUT         300
 ENV DNS_ADDR        8.8.8.8
 ENV DNS_ADDR_2      8.8.4.4
