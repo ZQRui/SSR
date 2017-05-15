@@ -9,8 +9,10 @@ image: burndown/shadowsockrs
 ports:
 
 - "80:58388"
+
 environment:
 
 - PASSWORD=Killgfw!
 - OBFS_PARAM=www.xxxx.com
+
 restart: always
