@@ -4,8 +4,11 @@
 Suggest use docker compose to custmize parameters
 
 Sample of docker-compose file:
+
 shadowsocksr:
+
 image: burndown/shadowsockrs
+
 ports:
 
 - "80:58388"
