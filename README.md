@@ -1,4 +1,6 @@
-#update at 5/2/2017 
+#update at 5/15/2017 
+
+
 Suggest use docker compose to custmize parameters
 
 Sample of docker-compose file:
