@@ -1,3 +1,7 @@
+#update at 6/19/2017 
+
+update with new shadowsocksR 4.5.0
+
 #update at 6/5/2017 
 
 update with new shadowsocksR 4.4.0
